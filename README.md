@@ -3,8 +3,9 @@ scripts for creating kernel, uboot and FS image for a10-olinuxino-lime
 
 prerequisites
 -------------
-* Debian VM testing - don't wanna mess up your main system and you need root privileges
-* APT sources need links to stable, testing and emdebian repositories (deb http://www.emdebian.org/debian <stable,testing> main)
+* NO WARRANTY included
+* Debian VM testing - nobody wants to mess up their main system and give root privileges to unknown script
+* APT sources need links to stable, testing and emdebian repositories (deb http://www.emdebian.org/debian stable/testing main)
 * packages;
   * binfmt-support
   * build-essential
@@ -26,8 +27,8 @@ settings
   * NEW_HOSTNAME
   * KERNEL_CONF
   * KERNEL_DIR
-* grep for lines containing "FIXME" if you not wanna default settings
-* grep for "a10-olinuxino-lime specific" if you want change the board
+* grep for lines containing "FIXME" if one does not want default settings
+* grep for "a10-olinuxino-lime specific" if one wants to change the board
 * edit 1st-boot.sh for commands to be run after first boot
 
 
